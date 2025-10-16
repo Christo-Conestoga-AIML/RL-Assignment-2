@@ -33,13 +33,19 @@ Rewards are given for successful drop-offs (+20) and penalized for wrong pickups
 - Learning Rate, Exploration Factor, Discount Factor  
 
 ### How to Run the Code
-1. Make sure you are using python 3.12
-2. Create and activate a virtual environment:
+1. Clone this repo using
+    ```bash
+    git clone https://github.com/Christo-Conestoga-AIML/RL-Assignment-2.git
+2. Navigate to the cloned folder.
+    ```bash
+    cd RL-Assignment-2
+3. Make sure you are using python 3.12
+4. Create and activate a virtual environment:
    ```bash
    python3 -m venv .venv
    .venv\Scripts\activate
-3. Install the required dependencies from `requirements.txt`
+5. Install the required dependencies from `requirements.txt`
    ```bash
    pip install -r requirements.txt
-4. Open and run the notebook `lib/main.ipynb` sequentially
+6. Open and run the notebook `lib/main.ipynb` sequentially
    
