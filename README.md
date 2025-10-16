@@ -15,15 +15,14 @@ Rewards are given for successful drop-offs (+20) and penalized for wrong pickups
 
 ### What assignment includes 
 - Implemented a reusable Q-Learning training function.
-- Logged detailed steps for the first few episodes to show how the Q-table updates.
 - Tracked metrics such as training time, average reward, and total steps per episode.
-- Conducted experiments by changing **learning rate (α)** and **discount factor (γ)** values to observe their effects.
+- Conducted experiments by changing **learning rate (α)** and **exploration factor (ε)** values to observe their effects.
 - Visualized training progress using line graphs of episode rewards.
 
 ### Parameters Tested
 - **Learning Rate (α):** 0.01, 0.001, 0.2  
-- **Discount Factor (γ):** 0.2, 0.3  
-- **Baseline:** α = 0.1, γ = 0.9  
+- **Exploration Factor (ε):** 0.2, 0.3  
+- **Baseline:** α = 0.1, ε=0.1, γ = 0.9  
 
 ###  Evaluation Metrics
 - Training Time (s)  
